@@ -1,0 +1,37 @@
+{
+    "sd_webui":{
+        "servers":[
+            {
+                "name":"UIXROV",
+                "host":"127.0.0.1:7680",
+                "max_concurrent":5,
+                "max_queue":20,
+                "max_vram":"15G"
+            }
+        ],
+        "default_setting":{
+            "cfg_scale": 7.5,
+            "negative_prompt": "",
+            "height":768,
+            "width":512,
+            "steps":25,
+            "sampler":"Euler a"
+        }
+    },
+    "discord":{
+        "token":"MTE1NjMwMzAzODMwMzE3NDc1Ng.G7HXJT.CxFaAfsREH4sMG_B8EiY50mCbd146J5uiQAp-4",
+        "server_id":"",
+        "bot_name":"UIXROV",
+        "bot_avatar":"https://raw.githubusercontent.com/SpenserCai/sd-webui-discord/main/res/logo.png",
+        "bot_url":"https://github.com/SpenserCai/sd-webui-discord"
+    },
+    "user_center":{
+        "enable":true,
+        "must_register":true,
+        "db_config":{
+            "type":"sqlite",
+            "dsn":"./user_center.db"
+        }
+    },
+    "disable_return_gen_info":true
+}
